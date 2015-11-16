@@ -1,0 +1,26 @@
+{
+    "name": "malahierba-lab/word-counter",
+    "description": "Laravel simple tool for word counting tasks",
+    "keywords": [
+        "laravel",
+        "words",
+        "counter"
+    ],
+    "license" : "MIT",
+    "authors": [
+        {
+            "name": "malahierba team",
+            "email": "lab@malahierba.cl",
+            "homepage": "http://malahierba.cl"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.18",
+        "laravel/framework": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Malahierba\\WordCounter\\": "src/"
+        }
+    }
+}
