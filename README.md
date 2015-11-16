@@ -1,4 +1,4 @@
-# Laravel Web Harvester
+# Laravel Word Counter
 
 A tool for get information from external websites. Powered by PhantomJS and malahierba.cl dev team
 
