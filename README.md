@@ -1,6 +1,6 @@
 # Laravel Word Counter
 
-A tool for get information from external websites. Powered by PhantomJS and malahierba.cl dev team
+Laravel simple tool for word counting tasks. Powered by malahierba.cl dev team
 
 ## Installation
 
