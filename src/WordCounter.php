@@ -145,9 +145,6 @@ class WordCounter {
         if ($this->remove_html_tags === true)
             $string = strip_tags($string);
 
-        if ($this->remove_html_tags === true)
-            $string = strip_tags($string);
-
         if ($this->case_sensitive === false)
             $string = mb_strtolower($string, $this->input_charset);
 
