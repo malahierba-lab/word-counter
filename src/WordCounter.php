@@ -142,6 +142,9 @@ class WordCounter {
     {
         $string = $this->string;
 
+        if ($this->remove_scripts === true)
+            $string = preg_replace('/<script[^>]*?>.*?<\/script>/is', "", $string);
+
         if ($this->remove_html_tags === true)
             $string = strip_tags($string);
 
