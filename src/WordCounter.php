@@ -29,14 +29,14 @@ class WordCounter {
      *
      * @var string
      */
-    protected $remove_html_tags = true;
+    public $remove_html_tags = true;
 
     /**
      * Flag for remove or not script codes
      *
      * @var string
      */
-    protected $remove_scripts = true;
+    public $remove_scripts = true;
 
     /**
      * Splits or not words with hyphen
